@@ -15,12 +15,12 @@ int main()
         // Prints the first two terms.
         if(i == 1)
         {
-            cout << " " << t1;
+            cout << " " << t1<<endl;
             continue;
         }
         if(i == 2)
         {
-            cout << t2 << " ";
+            cout << t2 << " "<<endl;
             continue;
         }
         nextTerm = t1 + t2;
